@@ -1,43 +1,43 @@
 import styled from 'styled-components';
 
 export const Container = styled.ul`
-  margin-top: 20px;
+  /* margin-top: 20px; */
 
   li {
-    display: flex;
+    /*     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #444;
+    color: #444; */
 
     & + li {
-      margin-top: 15px;
+      /* margin-top: 15px; */
     }
   }
 `;
 
 export const FileInfo = styled.div`
-  display: flex;
+  /*   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex: 1;
+  flex: 1; */
 
   button {
-    border: 0;
+    /*     border: 0;
     background: transparent;
     color: #e83f5b;
     margin-left: 5px;
-    cursor: pointer;
+    cursor: pointer; */
   }
 
   div {
-    display: flex;
+    /*     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
 
     span {
-      font-size: 12px;
+      /*       font-size: 12px;
       color: #999;
-      margin-top: 5px;
+      margin-top: 5px; */
     }
   }
 `;
